@@ -23,9 +23,5 @@ public class ExitGenerator : MonoBehaviour
         //DestroyObject;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }

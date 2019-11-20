@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class TestMovement : MonoBehaviour
 {
-    //ignore this entire section
+    /// <summary>
+    /// ignore this entire script it is class work
+    /// </summary>
     // Start is called before the first frame update
     public Rigidbody rigid;
     public float speed = 5f;
@@ -30,7 +32,7 @@ public class TestMovement : MonoBehaviour
                 // Before moving position
                 transform.position += direction;
             }
-            //rigid.AddForce(direction * speed);
+            
         }
     }
 }

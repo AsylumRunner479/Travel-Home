@@ -25,12 +25,8 @@ public class EnemyGenerator : MonoBehaviour
         int randomIndex = Random.Range(0, Enemy.Length);
         GameObject objectToDestroy = Enemy[randomIndex];
         Destroy(objectToDestroy);
-        //DestroyObject;
+       
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+   
 }

@@ -18,6 +18,6 @@ public class OnTriggerEvent : MonoBehaviour
     }
   }
 
-  // Update is called once per frame
+  
 
 }
