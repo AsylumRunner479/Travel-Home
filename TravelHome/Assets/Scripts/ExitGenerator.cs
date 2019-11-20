@@ -10,6 +10,7 @@ public class ExitGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // makes a random possible exit point go away so that the player never knows where they have to go
         possibleExits = GameObject.FindGameObjectsWithTag("PossibleExit");
 
         RemoveRandom();

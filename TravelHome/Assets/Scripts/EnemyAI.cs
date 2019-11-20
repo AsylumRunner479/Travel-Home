@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
+    /// <summary>
+    /// ignore this entire script it is class work
+    /// </summary>
     public Transform waypointParent;
     public float waypointDistance = 5f;
     public float speed = 5f;
@@ -49,7 +52,10 @@ public class EnemyAI : MonoBehaviour
             {
                 currentWaypoint++;
             }
-            
+            // Switch to next waypoint
+
+            // >>Error handling<<
+            // Reset back to 1
         }
     }
 }

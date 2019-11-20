@@ -11,6 +11,7 @@ public class OnTriggerEvent : MonoBehaviour
   // Start is called before the first frame update
   private void OnTriggerEnter(Collider other)
   {
+        //makes the player object aware when the player moves onto it so it will trigger
     if (other.tag == hitTag)
     {
       onEnter.Invoke();
